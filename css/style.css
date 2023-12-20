@@ -102,7 +102,8 @@ body {
   padding: 1.6rem 3.2rem;
   border-radius: 8px;
 
-  transition: background-color 0.3s;
+  /* transition: background-color 0.3s;  */
+  transition: all 0.3s;
 }
 
 .btn--full:link,
@@ -366,6 +367,8 @@ strong {
 
 .meal-tags {
   margin-bottom: 1.2rem;
+  display: flex;
+  gap: 0.4rem;
 }
 
 .tag {
@@ -386,7 +389,7 @@ strong {
   background-color: #94d82d;
 }
 
-.tag--veg {
+.tag--paleo {
   background-color: #ffd43b;
 }
 
