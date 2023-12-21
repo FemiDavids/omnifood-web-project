@@ -136,10 +136,12 @@ body {
 
 .link:link,
 .link:visited {
+  display: inline-block;
   color: #e67e22;
   text-decoration: none;
   border-bottom: 1px solid currentColor;
   padding-bottom: 0.2rem;
+  transition: all 0.3s;
 }
 
 .link:hover,
@@ -148,12 +150,17 @@ body {
   border-bottom: 1px solid transparent;
 }
 
+/* HELPER / SETTING CLASSES  */
 .margin-right-sm {
   margin-right: 1.6rem !important;
 }
 
 .margin-bottom-md {
   margin-bottom: 4.8rem !important;
+}
+
+.center-text {
+  text-align: center;
 }
 
 strong {
@@ -377,6 +384,13 @@ strong {
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
   border-radius: 12px;
   overflow: hidden;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+
+.meal:hover {
+  transform: translateY(-1.2rem);
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
 }
 
 .meal-content {
