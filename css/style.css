@@ -362,6 +362,19 @@
   padding: 9.6rem;
 }
 
+.plan-header {
+  text-align: center;
+}
+
+.plan-name {
+}
+
+.plan-price {
+}
+
+.plan-text {
+}
+
 /* 
 display: grid;
 grid-template-columns: 55fr 45fr;

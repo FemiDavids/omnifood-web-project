@@ -60,6 +60,8 @@ body {
   font-weight: 400;
   color: #555;
   font-size: 1.6rem;
+
+  scroll-behavior: smooth;
 }
 
 /*****************************************************/
