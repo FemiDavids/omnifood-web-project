@@ -480,9 +480,6 @@ align-items: center; */
   overflow: hidden;
 
   background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
-
-  /* temp height  */
-  height: 50rem;
 }
 
 .cta-text-box {
@@ -526,6 +523,7 @@ align-items: center; */
   font-weight: 500;
   margin-bottom: 1.2rem;
 }
+
 .cta-form input,
 .cta-form select {
   width: 100%;
@@ -543,8 +541,7 @@ align-items: center; */
   color: #aaa;
 }
 
-.cta-form select {
-}
-
-.cta-form button {
+.cta *:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgb(253, 242, 233, 0.5);
 }
