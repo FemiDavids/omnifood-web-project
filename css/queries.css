@@ -1,0 +1,10 @@
+/* rem and em do NOT depend on html font-size in media queries!
+Instead, 1rem = 1em =16px
+rem sometimes doesn't work well with all browsers for media queries */
+
+/*****************************************************/
+/* HERO SECTIONS                                     */
+/*****************************************************/
+
+@media (max-width: 84em) {
+}
