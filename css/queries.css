@@ -3,8 +3,31 @@ Instead, 1rem = 1em =16px
 rem sometimes doesn't work well with all browsers for media queries */
 
 /*****************************************************/
-/* HERO SECTIONS                                     */
+/* BELOW 1250px (smaller desktops)                   */
 /*****************************************************/
 
-@media (max-width: 84em) {
+@media (max-width: 78em) {
+  .hero {
+    max-width: 110rem;
+  }
+
+  .heading-primary {
+    font-size: 4.4rem;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/*****************************************************/
+/* BELOW 1100px (landscape tablets)                   */
+/*****************************************************/
+
+@media (max-width: 69em) {
+  html {
+    /* we reduce the font-size by 1px, 
+    9px/16px = 56.25% */
+    font-size: 56.25%;
+  }
 }
