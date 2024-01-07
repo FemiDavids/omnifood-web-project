@@ -30,4 +30,24 @@ rem sometimes doesn't work well with all browsers for media queries */
     9px/16px = 56.25% */
     font-size: 56.25%;
   }
+
+  .grid {
+    column-gap: 4rem;
+    row-gap: 5.6rem;
+  }
+
+  .heading-secondary {
+    font-size: 3.6rem;
+  }
+
+  .heading-tertiary {
+    font-size: 2.4rem;
+  }
+  .header {
+    padding: 0 3.2;
+  }
+
+  .feature-title {
+    font-size: 2rem;
+  }
 }
