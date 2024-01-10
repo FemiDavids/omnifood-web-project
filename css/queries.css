@@ -140,11 +140,12 @@ rem sometimes doesn't work well with all browsers for media queries */
 
     width: 100%;
     height: 100vh;
+    transform: translateX(100%);
 
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: all 0.5s;
+    transition: all 0.5s ease-in;
 
     /* Hide Navigation */
     /* We can't use (display: none;) because it allows NO transition at all */
@@ -165,6 +166,7 @@ rem sometimes doesn't work well with all browsers for media queries */
     opacity: 1;
     pointer-events: auto;
     visibility: visible;
+    transform: translateX(0%);
   }
 
   .nav-open .icon-mobile-nav[name="close-outline"] {
