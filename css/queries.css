@@ -187,3 +187,23 @@ rem sometimes doesn't work well with all browsers for media queries */
     font-size: 3rem;
   }
 }
+
+/*****************************************************/
+/* BELOW 944px (Smaller Tablets)                             */
+/*****************************************************/
+
+@media (max-width: 51em) {
+  .grid--3-cols,
+  .grid--4-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .diets {
+    grid-column: 1/-1;
+    justify-self: center;
+  }
+
+  .heading-secondary {
+    margin-bottom: 4.8rem;
+  }
+}
